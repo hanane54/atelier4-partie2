@@ -1,7 +1,7 @@
 pipeline {
   environment {
     registry = "hanane54/deploy_on_docker" 
-    registryCredential = 'dockerhub'
+    registryCredential = 'hanane54'
     dockerImage = ''
   } 
   agent any 
